@@ -1,5 +1,6 @@
 # medical_app_ui_2
 
+Took like 10 mins or so
 A new Flutter project.
 
 ## Getting Started
