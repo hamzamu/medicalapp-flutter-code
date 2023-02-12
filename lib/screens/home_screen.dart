@@ -136,7 +136,7 @@ class homeScreen extends StatelessWidget {
               ),
             ),
             //  titleBar
-            TitleBar(title: "Specialities", icon: Icons.access_alarm),
+            TitleBar(title: "Specialities", icon: Icons.sailing),
             // stuff
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
@@ -150,7 +150,7 @@ class homeScreen extends StatelessWidget {
                 ],
               ),
             ),
-            TitleBar(title: "Food", icon: Icons.access_alarm),
+            TitleBar(title: "Medical Records", icon: Icons.account_box),
 
             // main
             // scroll stuff
@@ -158,16 +158,11 @@ class homeScreen extends StatelessWidget {
               child: ListView(
                 children: [
                   // TitleBar(title: "Specialities", icon: Icons.access_alarm),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
-                  foodCard(title: 'Hamza', image: 'pexels-pixabay-159211.jpg'),
+                  foodCard(
+                      title: 'Test results',
+                      image: 'pexels-pixabay-159211.jpg'),
+
+                  foodCard(title: 'X-Ray', image: 'pexels-pixabay-159211.jpg'),
                 ],
               ),
             )
